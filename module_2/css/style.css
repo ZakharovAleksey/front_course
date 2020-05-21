@@ -1,0 +1,101 @@
+/* Base styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS';
+    min-width: 320px;
+}
+
+body {
+    margin: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+}
+
+div {
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    /* box-sizing: border-box; */
+    font-size: 16px;
+    background-color: silver;
+}
+
+.title {
+    position: relative;
+    top: -10px;
+    right: -10px;
+
+    background-color: burlywood;
+    float: right;
+    width: 30%;
+    margin: 0px;
+}
+
+.content {
+    clear: both;
+    overflow: hidden;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    word-break:break-all;
+}
+
+#title_1 {
+    background-color: aqua;
+}
+
+#title_2 {
+    background-color: teal;
+}
+
+#title_3 {
+    background-color: olive;
+}
+
+
+@media (min-width: 1000px) {
+
+    .container {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .box-large, .box-medium {
+        width: calc(33.33% - 10px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px) {
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-large {
+        width: calc(100% - 10px);
+    }
+
+    .box-medium{
+        width: calc(50% - 10px);
+    }
+
+    #title_3 {
+        width: calc(0.4 * (50% - 10px));
+    }
+
+}
+
+@media (max-width: 767px) {
+    .box-large, .box-medium {
+        width: calc(100% - 10px);
+    }
+}
