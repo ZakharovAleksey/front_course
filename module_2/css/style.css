@@ -2,11 +2,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Comic Sans MS';
-    min-width: 320px;
 }
 
 body {
     margin: 10px;
+    min-width: 320px;
 }
 
 h1 {
@@ -65,7 +65,6 @@ div {
 
     .container {
         display: flex;
-        /* flex-direction: column; */
     }
 
     .box-large, .box-medium {
