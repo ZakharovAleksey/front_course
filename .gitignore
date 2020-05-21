@@ -1,0 +1,10 @@
+venv
+.vscode
+.pytest_cache
+.ipynb_checkpoints
+__pycache__
+input
+*.log
+.idea
+keras_logs
+keras_models
