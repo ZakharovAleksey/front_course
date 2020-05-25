@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: "Comic Sans MS";
+}
+
+/* Navigation bar settings START*/
+#menu {
+    white-space: nowrap;
+}
+
+.navbar-brand {
+    font-size: 3em;
+}
+
+.nav-item {
+    text-transform: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.navbar-toggler{
+    width: 3em;
+    height: 3em;
+}
+
+.navbar {
+    padding-left: 20px;
+}
+
+/* Navigation bar settings END*/
+
+
+/* Headers START*/
+
+h1 {
+    text-align: center;
+}
+
+.box > h2 {
+    text-align: center;
+}
+
+/* Headers END*/
+
+
+.container-flex {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+    flex-grow: 1;
+    background-color: grey;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    padding: 10px;
+}
+
+a {
+    color: blue;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+
+@media (max-width: 767px) {
+    
+}
