@@ -1,7 +1,7 @@
 {
-    "task1" : {
+    "task" : {
         "name": "lol",
-        "path": "C/dsd/h",
+        "path": "Cdsdh",
         "selected": false
     }
 }
