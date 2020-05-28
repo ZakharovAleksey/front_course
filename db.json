@@ -1,0 +1,19 @@
+{
+    "tasks": [
+        {
+            "name": "lol1",
+            "path": "C/dsd/h",
+            "selected": false
+        },
+        {
+            "name": "lol2",
+            "path": "C/dsd/h",
+            "selected": false
+        },
+        {
+            "name": "lol3",
+            "path": "C/dsd/h",
+            "selected": false
+        }
+    ]
+}
